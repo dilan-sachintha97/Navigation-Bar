@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0 ;
+}
+body{
+    font-family: sans-serif;
+}
+
+/*navigation-bar*/
+nav{
+    height: 80px;
+    background-color: #0F172B;
+}
+
+nav h1{
+    position: absolute;
+    /*border: 1px solid white;*/
+    width: 300px;
+    top: 25px;
+    left: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+nav ul{
+    float: right;
+    margin-right: 25px;
+    list-style: none;
+    /*border: 1px solid red;*/
+}
+nav ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 15px;
+    /*border: 1px solid red;*/
+}
+nav ul li a{
+    position: relative;
+    padding: 5px 0;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
