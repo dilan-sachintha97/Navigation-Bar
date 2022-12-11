@@ -64,7 +64,7 @@ label #s1, label #s2{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
 }
 
 .banner-text{
@@ -110,18 +110,24 @@ label #s1, label #s2{
     nav ul li a{
         font-size: 16px;
     }
-}
-
-/*For Responsive State*/
-#res-menu:checked~ul{
-    left: 0;
-}
-
-#res-menu:checked~label #s1{
-    display: none;
-}
 
 
-#res-menu:checked~label #s2{
-    display: block;
+    /*For Responsive State*/
+    #res-menu:checked~ul{
+        left: 0;
+    }
+
+    #res-menu:checked~label #s1{
+        display: none;
+    }
+
+
+    #res-menu:checked~label #s2{
+        display: block;
+    }
+
+    .banner-text h1{
+        font-size: 40px;
+    }
+
 }
